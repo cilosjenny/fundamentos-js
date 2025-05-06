@@ -1,0 +1,199 @@
+crtl + ; = comentarios
+
+
+variaveis:
+var
+let
+const
+
+
+reatribuir valor
+
+var x = 10;
+    x=20
+console.log()
+
+
+redeclarar valor (so funciona com var)
+
+var x = 10;
+var x=20;
+console.log()
+
+const n pode nenhum dos dois
+
+
+
+nao hoinst(let e const n funcionam)
+
+console.log(x);
+var x = 10;
+
+
+
+hoinst
+
+var x = 10;
+console.log(x);
+
+
+
+pode começar uma variavel com:
+
+letra de aA a zZ
+cifrão $
+sublinhado _
+
+
+ñ é permitido
+
+traço
+espaço
+
+
+camelCase:
+
+anaJennifer
+nomeCompleto
+
+pascal camelCase:
+
+AnaJennifer
+
+
+snake_case:
+
+nome_completo
+
+
+tipos primitivos:
+
+valores imutaveis
+
+
+n primitivos:
+dados complexos
+n armazenam localmente os dados
+representação de valores internos
+
+
+
+string:
+
+"texto"
+'texto'
+`texto`
+
+
+typeof:
+diz qual o dado dela, string numero e etc.
+
+let nomeCompleto = true
+
+console.log(typeof nomeCompleto)
+
+
+ponto flutuante ou numero quebrado:
+15.5
+
+boolean:
+
+true or false
+
+null=intencionalmente a ausência de valor
+
+
+
+array:
+
+
+let nomeCompleto = ["Alex", "Yoshi"]
+
+console.log(nomeCompleto[0])
+
+posição 0 e 1
+
+
+operadores:
+simbolos ou palavras
+
+de atribuição: = | += | -= | %= | /= | *=
+ou
+
+let  x = 15;
+
+x += x 
+
+console.log(x)
+
+trás 30
+
+comparação:
+true or false
+
+(usa boolean)
+
+operadores logicos:
+
+&& e ||
+
+
+tabela verdade:
+
+&& = só dá true se os dois for true 
+|| = só dá false se os dois for false
+
+operadores aritméticos:
+=:atribuição
++:mais
+-:menos
+/:divisão
+% :resto
+*:multiplicação
+**: elevado
+
+coesão:
+
+concatenação: junta duas ou mais strings de dois valores com operador de adição
+
+
+ex:
+let x ="Alex"
+let y ="Bessa"
+
+console.log(x + y)
+
+="AlexBessa"
+
+interpolação:
+
+let y=5
+
+console.log(`o numero é ${y}`)
+= o numero é 5
+
+
+entrada de dados:
+
+prompt() 
+caixa de dialogo
+
+confirm()
+
+ex: let y = confirm ("vc é lion?")
+console.log(y)
+
+ok ou sair
+
+retorna true ou false
+
+
+saida de dados:
+alert() 
+so funciona o codigo dps do usuario apertar ok
+
+console.log()
+
+
+
+
