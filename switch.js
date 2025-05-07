@@ -7,12 +7,13 @@ O usuário digita uma opção numérica e é exibido a operação correspondente
 4-Extrato
 */
 
-let numero = parseInt(prompt(`Escolha uma opção: 
-1-Saque
-2-Transferência
-3-Saldo
-4-Extrato`
-))
+let numero = parseInt(prompt(
+    `Escolha uma opção: 
+        1-Saque
+    2-Transferência
+    3-Saldo
+    4-Extrato
+`))
 
 switch (numero) {
 
