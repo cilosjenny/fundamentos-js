@@ -195,5 +195,28 @@ so funciona o codigo dps do usuario apertar ok
 console.log()
 
 
+if é uma estrutura independente
+porém só executa se sua condição for verdadeira
+
+else depende do if
 
 
+truthy or falsy
+
+todo comando é truthy a menos q seja definido como falsy
+
+
+falsy:
+false0
+" "
+null
+undefined
+NaN
+
+
+confirm
+
+
+
+OPERADOR TERNARIO
+condição ? true : false;
