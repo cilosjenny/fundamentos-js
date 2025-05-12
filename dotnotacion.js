@@ -46,9 +46,8 @@ for (const pessoas of pessoas){
 
 
     } else {
-        console.log());
+        console.log(`${pessoas.nome} não pode casar pois tem ${pessoas.idade} anos de idade.`));
 
     }
 }
 
-console.log(pessoas.idade)
