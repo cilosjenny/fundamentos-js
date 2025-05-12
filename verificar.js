@@ -14,9 +14,9 @@ Por fim, chame a função "verificarnumero" passandoo um número qualquer e a fu
 
 function verificarNumero(numero, callback) {
     if (numero >=10) {
-        callback("Número Alto")
+        callback("Número Alto");
     } else {
-        callback("Número Baixo")
+        callback("Número Baixo");
     }
 }
 
