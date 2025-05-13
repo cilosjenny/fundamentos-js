@@ -226,3 +226,17 @@ uma variavel pode ocultar uma variavel de escopo mais externo com o mesmo nome
 
 callback: chama a funçao dnv
 
+
+
+
+
+função de ordem maior:
+
+função q recebe outra função como parâmetro
+(uma ou mais funções como argumento)
+(funções q controlam outras funções)
+
+
+
+
+ARRAYS:coleção de dados, usando [];
