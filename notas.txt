@@ -240,3 +240,46 @@ função q recebe outra função como parâmetro
 
 
 ARRAYS:coleção de dados, usando [];
+
+
+DOM:
+     representação em arvore do html, na qual cada elemento(tag,texto, atributo)é um nó acessivel e manipulavel via js
+
+
+texto:class, id, scr e etc
+
+metodos de selção:como acessar o dom
+
+metodos classicos:
+getElementByid(id) retorna um unico elemento(primeiro) com identificador especifico
+
+identificadodr unico p/ um elemento
+
+getElementsByClassName = por classe
+ e
+ 
+getElementsByTagName= por tag
+
+
+
+querySelector = busca pelo seletor, retorna so  o primeiro(".titulo-principal") ou # e tag=h1
+
+o h1 dentro do main document.   querySelector("main h1")
+
+
+
+querySelectorAll = Seleciona e retorna todos, em array, retorna NodeList
+
+innerHTML - define ou obtem conteudo com html
+
+
+getAttribute = buscar atributos / lê um atributo
+
+(imagem.getAttribute ("src"))
+
+setAttribute(valor,atributo) - define um atributo(inserindo a imagem no js)
+
+imagem.setAttribute("src, link...")
+
+
+
