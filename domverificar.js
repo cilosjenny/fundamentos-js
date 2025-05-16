@@ -19,4 +19,4 @@ function verificarIdade(numero) {
     
     return paragrafo.classList.add("menor");
 }
-verificarIdade(18);
+verificarIdade(18);e

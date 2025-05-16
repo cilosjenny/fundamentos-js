@@ -31,3 +31,20 @@ numero.forEach((numero) => {
 });
 
 console.log(pares);
+
+
+////com fetch
+
+fetch('https://jsonplaceholder.typicode.com/users')
+    .then(resposta => resposta.json())
+    .then(dados => (nome => {
+        dados.forEach( element => {
+            console.log(nome.name);
+            
+        });
+
+    })
+    .catch(erro => {
+        console.error(`Erro: ${erro}`);
+
+    });
